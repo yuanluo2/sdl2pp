@@ -1,3 +1,7 @@
+/*
+    @author yuanluo2
+    @brief  sdl2 wrapper, written in C++11, put SDL, SDL_image, SDL_ttf, SDL_mixer together.
+*/
 #ifndef __SDL2_WRAPPER_HPP__
 #define __SDL2_WRAPPER_HPP__
 
