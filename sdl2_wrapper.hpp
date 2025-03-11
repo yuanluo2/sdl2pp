@@ -305,7 +305,8 @@ namespace sdl2 {
     }
 
     /*
-        You must never destroy this surface, according to the SDL2 document.
+        You must never destroy the returned surface, according to the SDL2 document.
+        and you can't set the returned surface to Surface.
     */
     SDL_Surface* sdl_window_get_surface(Window& window) noexcept {
         return SDL_GetWindowSurface(window.get());
